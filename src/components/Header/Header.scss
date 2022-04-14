@@ -1,0 +1,55 @@
+.navBar {
+  height: 80px;
+
+  img {
+    width: 89px;
+    height: 27px;
+  }
+  ul {
+    margin-bottom: 0;
+    a {
+      text-decoration: none;
+      color: black;
+    }
+  }
+  .user {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  button {
+    background-color: #1dbf73;
+    border: #1dbf73;
+    &:hover {
+      background-color: #1dbf73;
+    }
+  }
+  .buttons {
+    button {
+      height: 30px;
+      width: 60px;
+      background-color: transparent;
+      color: black;
+      border: solid 2px black;
+      &:hover {
+        border: solid 2px transparent;
+        color: white;
+        transition: 0.3s;
+        background-color: #1dbf73;
+      }
+    }
+    button.sign-in-btn {
+      color: black;
+      border: transparent;
+      background-color: transparent;
+    }
+  }
+}
+@media only screen and (max-width: 720px) {
+  .search-bar {
+    display: none;
+  }
+}

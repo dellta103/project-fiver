@@ -1,0 +1,14 @@
+@media only screen and (min-width: 720px) and (max-width: 1000px) {
+  .type-jobs-content {
+    .content-left {
+      display: none;
+    }
+  }
+}
+@media only screen and (max-width: 720px) {
+  .type-jobs-content {
+    .content-left {
+      display: none;
+    }
+  }
+}

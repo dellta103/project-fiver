@@ -1,0 +1,22 @@
+.sideBar {
+  width: 300px;
+  height: 100vh;
+  border: 2px solid black;
+  .top {
+    height: 50px;
+    background-color: #1dbf73;
+  }
+  .bottom {
+    height: calc(100vh - 50px);
+  }
+}
+.active1 {
+  background-color: rgb(156, 149, 149);
+  height: 70px;
+  width: 200px;
+}
+.active2 {
+  background-color: rgb(156, 149, 149);
+  height: 70px;
+  width: 200px;
+}

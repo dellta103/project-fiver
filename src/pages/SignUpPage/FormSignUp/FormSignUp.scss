@@ -1,0 +1,16 @@
+button {
+  height: 40px;
+  width: 70px;
+  background-color: rgb(23, 179, 23);
+  color: white;
+}
+@media only screen and (min-width: 720px) and (max-width: 1000px) {
+  .signUp {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 720px) {
+  .signUp {
+    width: 100%;
+  }
+}

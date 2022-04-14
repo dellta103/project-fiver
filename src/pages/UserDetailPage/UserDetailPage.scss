@@ -1,0 +1,110 @@
+.left {
+  .top {
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    z-index: 0;
+    .user {
+      .avatar {
+        height: 100px;
+        width: 100px;
+        background-color: rgb(170, 164, 164);
+        border-radius: 50%;
+        position: relative;
+        display: block;
+        &:hover {
+          cursor: pointer;
+        }
+        input {
+          display: none;
+        }
+        span {
+          position: absolute;
+          left: 40px;
+          top: 30px;
+        }
+        img {
+          height: 100px;
+          width: 100px;
+          border-radius: 50%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          object-fit: cover;
+          z-index: 0;
+        }
+      }
+      .text {
+        border-top: solid 1px rgb(172, 169, 169);
+        margin: 20px auto;
+        .text-top {
+          margin-top: 10px;
+        }
+      }
+    }
+  }
+  .bottom {
+    width: 300px;
+    background-color: white;
+    margin-top: 10px;
+  }
+}
+@media only screen and (min-width: 720px) and (max-width: 1000px) {
+  .left {
+    width: 40%;
+    .top {
+      width: 100% !important;
+    }
+    .bottom {
+      width: 100% !important;
+    }
+  }
+  .right {
+    width: 60%;
+    margin-left: 30px;
+    .job-left {
+      width: 100%;
+      img {
+        width: 150px !important;
+        height: auto;
+      }
+    }
+    .job-right {
+      width: 100%;
+      padding: 0 !important;
+      button {
+        margin-top: 0 !important;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 720px) {
+  .left {
+    width: 50%;
+    .top {
+      width: 100% !important;
+    }
+    .bottom {
+      width: 100% !important;
+    }
+  }
+  .right {
+    width: 50%;
+    margin-left: 10px;
+    .job-left {
+      width: 100%;
+      img {
+        width: 100px !important;
+        height: auto;
+      }
+    }
+    .job-right {
+      width: 100%;
+      padding: 0 !important;
+      button {
+        margin-top: 0 !important;
+        display: none;
+      }
+    }
+  }
+}

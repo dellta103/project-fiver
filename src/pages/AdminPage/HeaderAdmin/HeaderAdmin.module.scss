@@ -1,0 +1,15 @@
+.header {
+  border-bottom: solid 2px black;
+  border-top: solid 2px black;
+  height: 50px;
+  width: calc(100vw - 300px);
+  img {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
